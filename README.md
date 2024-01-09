@@ -1,6 +1,9 @@
 # Dilanka's Personel Web Site
 
 Welcome to my personal portfolio website! This project was built using React.js with Vite to showcase my skills, projects, and experience.
+## Dependencies
+React-scroll
+react-simple-typewriter
 
 ## Table of Contents
 
