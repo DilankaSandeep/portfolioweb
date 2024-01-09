@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import logo from "../../assets/logo/DW.png";
+import logo from "../../assets/logo/dwlogo.png";
 import { Link } from "react-scroll";
 import {navLinkData} from "../../constants";
 

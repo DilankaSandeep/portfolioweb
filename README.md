@@ -35,7 +35,8 @@ Before you begin, ensure you have the following tools installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+  
+    git clone https://github.com/username/portfolio.git
 
 ### License
 Copyright &copy; 2024. All Rights Reserved <br>
