@@ -5,6 +5,8 @@ import {Feature} from "./components/features/Feature.tsx";
 import {Testimonial} from "./components/testimonial/Testimonial.tsx";
 import {Contact} from "./components/contact/Contact.tsx";
 import {Projects} from "./components/projects/Projects.tsx";
+import {Resume} from "./components/resume/Resume.tsx";
+
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
         <NavBar />
         <div className="max-w-screen-xl mx-auto">
             <Home/>
+            <Resume/>
             <Projects/>
             <Feature/>
             <Testimonial/>

@@ -5,9 +5,9 @@ export const LeftSection = () => {
     const [text] = useTypewriter({
         words: ["Professional Engineer.", "Full Stack Developer.", "Java Developer.","Full Stack Engineer"],
         loop: true,
-        typeSpeed: 15,
-        deleteSpeed: 10,
-        delaySpeed: 2200,
+        typeSpeed: 30,
+        deleteSpeed: 20,
+        delaySpeed: 2000,
     });
 
     return (

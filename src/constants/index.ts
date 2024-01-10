@@ -12,22 +12,23 @@ export  const  navLinkData:navtype[] = [
         title: "Home",
         link: "home",
     },
-
     {
         _id: 2,
+        title: "Resume",
+        link: "resume",
+    },
+
+    {
+        _id: 3,
         title: "Projects",
         link: "projects",
     },
     {
-        _id: 3,
+        _id: 4,
         title: "Features",
         link: "features",
     },
-    {
-        _id: 4,
-        title: "Resume",
-        link: "resume",
-    },
+
     {
         _id: 5,
         title: "Testimonial",
