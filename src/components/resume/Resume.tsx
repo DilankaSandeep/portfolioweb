@@ -81,7 +81,7 @@ export const Resume = () => {
             </div>
             {educationData && <Education />}
             {skillData && <Skills />}
-            {experienceData && <ExtraCurricular/>}
+            {extraCurricularData && <ExtraCurricular/>}
             {experienceData && <Experience />}
 
         </section>
