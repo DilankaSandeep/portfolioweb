@@ -4,6 +4,9 @@ Welcome to my personal portfolio website! This project was built using React.js 
 ## Dependencies
 React-scroll
 react-simple-typewriter
+framer-motion
+react-icon
+bootstarp icons
 
 ## Table of Contents
 
