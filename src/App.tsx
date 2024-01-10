@@ -4,8 +4,8 @@ import {Home} from "./components/home/Home.tsx";
 import {Feature} from "./components/features/Feature.tsx";
 import {Testimonial} from "./components/testimonial/Testimonial.tsx";
 import {Contact} from "./components/contact/Contact.tsx";
-import {Projects} from "./components/projects/Projects.tsx";
 import {Resume} from "./components/resume/Resume.tsx";
+import Projects from "./components/projects/Projects.tsx";
 
 
 function App() {
