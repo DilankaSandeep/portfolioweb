@@ -106,7 +106,7 @@ export const Skills = () => {
             </span>
                     </div>
                     <div className="overflow-x-hidden">
-                        <p className="text-sm uppercase font-medium">Git</p>
+                        <p className="text-sm uppercase font-medium">Git and Junit</p>
                         <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                   initial={{ x: "-100%", opacity: 0 }}

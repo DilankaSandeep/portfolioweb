@@ -11,6 +11,7 @@ const ProjectsCard = ({ title, des, src,github,link }) => {
                     src={src}
                     alt="src"
                 />
+
             </div>
             <div className="w-full mt-5 flex flex-col  gap-6">
                 <div>

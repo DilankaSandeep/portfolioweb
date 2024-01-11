@@ -4,6 +4,7 @@ import {Education} from "./Education.tsx";
 import {Skills} from "./Skills.tsx";
 import {ExtraCurricular} from "./ExtraCurricular.tsx";
 import {Experience} from "./Experience.tsx";
+import CV from "../../assets/Dilanka CV Software Engineer.pdf";
 
 export const Resume = () => {
     const [educationData, setEducationData] = useState(true);
@@ -15,7 +16,9 @@ export const Resume = () => {
         <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
             <div className="flex justify-center items-center text-center">
                 <Title title="4+ Years of Professional Experience" des="My Resume" />
+               <div className="p-2 bg-cyan-500 hover:bg-cyan-600 rounded-lg text-black"> <a href={CV} download={"dilanakCV.pdf"}>Download CV</a></div>
             </div>
+
             <div>
                 <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
                     <li

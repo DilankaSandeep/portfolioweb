@@ -1,11 +1,13 @@
 import ProjectCard from "./ProjectCard.tsx";
 import Title from "../titles/Title.tsx";
-import Taskflow from "../../assets/project/TaskFlowFront.png";
+//import Taskflow from "../../assets/project/TaskFlowFront.png";
 import BookLand from "../../assets/project/bookLand.png";
 import Apple from "../../assets/project/Apple.png";
 import Google from "../../assets/project/google.png";
 import TextEditor from "../../assets/project/simpletextEditor.png";
 import Portfoliopweb from "../../assets/project/portfolioweb.png";
+import taskflowviedo from "../../assets/video/Task_Flow_app.mp4";
+import ProjectCardvideo from "./ProjectCardvideo.tsx";
 
 const Projects = () => {
     return (
@@ -20,10 +22,10 @@ const Projects = () => {
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-                <ProjectCard
+                <ProjectCardvideo
                     title="TaskFlow Application"
                     des=" Welcome to Task Flow, the ultimate solution for streamlined task management designed to make your life easier and more organized. Task Flow is not just a to-do list; it's your personal productivity companion, accessible from anywhere, whether you're at your computer or on the go with your mobile device and log in with your Google account."
-                    src={Taskflow}
+                    src={taskflowviedo}
                     github="https://github.com/DilankaSandeep/Task-flow-app.git"
                     link="//"
                 />
