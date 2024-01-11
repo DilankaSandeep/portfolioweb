@@ -63,7 +63,7 @@ const Projects = () => {
                 />
                 <ProjectCard
                     title="Personel Web Site"
-                    des="Welcome to my personal portfolio website! This project was built using React.js with Vite to showcase my skills, projects, and experience.Integrated with Libraries React-scroll, react-simple-typewriter, framer-motion, react-icon, bootstarp icons,EmailJS "
+                    des="Welcome to my personal portfolio website! This project was built using React.js with Vite to showcase my skills, projects, and experience.Integrated with Libraries React-scroll, react-simple-typewriter, framer-motion, react-icon, bootstarp icons,EmailJS,TailWind "
                     src={Portfoliopweb}
                     github={"https://github.com/DilankaSandeep/portfolioweb.git"}
                     link={"///"}

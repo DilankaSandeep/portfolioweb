@@ -7,6 +7,8 @@ react-simple-typewriter
 framer-motion
 react-icon
 bootstarp icons
+TailWind
+EmailJs
 
 ## Table of Contents
 
