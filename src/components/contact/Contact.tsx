@@ -1,8 +1,8 @@
 import Title from '../titles/Title.tsx';
 import ContactImage from "../../assets/contact.jpeg";
-import {FaFacebookF, FaLinkedinIn, FaTwitter} from "react-icons/fa";
+import {FaFacebookF, FaLinkedinIn} from "react-icons/fa";
 import React, {useRef, useState} from "react";
-import ReactDOM from "react-dom/client";
+import emailjs from '@emailjs/browser';
 import {FaX} from "react-icons/fa6";
 import {Github} from "react-bootstrap-icons";
 
@@ -23,6 +23,15 @@ const Contact = () => {
             .toLocaleLowerCase()
             .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
     };
+
+    const emailContent = {
+        to_name:"Dilanka",
+        from_name:username,
+        subject:subject,
+        message:message,
+        phoneNumber:phoneNumber,
+        email:email
+    }
 
     const handleSend = (e:React.FormEvent) => {
         e.preventDefault();
@@ -57,6 +66,12 @@ const Contact = () => {
             setTimeout(()=>{
                 setSuccessMsg("");
             },3500)
+            emailjs.send('service_g2tpk2o', 'template_lpgprhv', emailContent, 'Z1hYz-AHi3Cp10O5L')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
         }
     };
 
