@@ -21,13 +21,15 @@ const ProjectsCard = ({ title, des, src,github,link }) => {
                         </h3>
                         <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-blue-700 duration-300 cursor-pointer">
-                  <a href={github} title="Checkout the code">
+                  <a href={github} title="Checkout the code" target="_blank" 
+              rel="noopener noreferrer">
                                       <BsGithub />
                   </a>
 
               </span>
                             <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-blue-600 duration-300 cursor-pointer">
-                <a href={link}>
+                <a href={link} target="_blank" 
+              rel="noopener noreferrer">
                                                     <FaGlobe />
                 </a>
 

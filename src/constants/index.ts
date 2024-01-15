@@ -23,19 +23,9 @@ export  const  navLinkData:navtype[] = [
         title: "Projects",
         link: "projects",
     },
-    {
-        _id: 4,
-        title: "Features",
-        link: "features",
-    },
 
     {
-        _id: 5,
-        title: "Testimonial",
-        link: "testimonial",
-    },
-    {
-        _id: 6,
+        _id: 4,
         title: "Contact",
         link: "contact",
     },

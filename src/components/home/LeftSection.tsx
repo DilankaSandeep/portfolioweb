@@ -7,7 +7,7 @@ export const LeftSection = () => {
         loop: true,
         typeSpeed: 30,
         deleteSpeed: 20,
-        delaySpeed: 2000,
+        delaySpeed: 750,
     });
 
     return (
@@ -15,7 +15,7 @@ export const LeftSection = () => {
             <div className="flex flex-col gap-5">
                 <h4 className=" text-lg font-normal">WELCOME TO MY PERSONAL WEB SITE</h4>
                 <h1 className="text-6xl font-bold text-white">
-                    Hi, I'm <span className="text-nameTextColor hover:text-blue-800 capitalize">Dilanka Wijesekara</span>
+                    Hi, I'm <span className="text-nameTextColor hover:text-blue-800 capitalize animate__animated animate__bounceInDown">Dilanka Wijesekara</span>
                 </h1>
                 <h2 className="text-4xl font-bold text-white">
                     a <span>{text}</span>

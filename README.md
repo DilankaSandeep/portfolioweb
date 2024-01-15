@@ -9,6 +9,8 @@ react-icon
 bootstarp icons
 TailWind
 EmailJs
+react-slick
+animate-css
 
 ## Table of Contents
 
@@ -16,10 +18,9 @@ EmailJs
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
+- [Link]
+
 - [License](#license)
 
 ## Features
@@ -44,8 +45,28 @@ Before you begin, ensure you have the following tools installed on your machine:
 
    ```bash
   
-    git clone https://github.com/username/portfolio.git
+    git clone https://github.com/DilankaSandeep/portfolioweb.git
+    
+### Technologies Used
+
+    React.js
+    TypeScript
+    Vite
+    Tailwind CSS
+    React-scroll
+    react-simple-typewriter
+    framer-motion
+    react-icons
+    react-bootstrap-icons
+    EmailJs
+    react-slick
+    animate-css
+
+### Link
+
+https://dilankaportfolio.firebaseapp.com/
 
 ### License
 Copyright &copy; 2024. All Rights Reserved <br>
 This Project is Licensed under [MITLicense](License.txt)
+

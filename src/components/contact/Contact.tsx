@@ -115,23 +115,27 @@ const Contact = () => {
                         <div className="flex flex-col gap-4">
                             <h2 className="text-base uppercase font-titleFont mb-4">Reach me in</h2>
                             <div className="flex gap-4">
-                                <a href={"https://www.linkedin.com/in/dilanka-wijesekara-a0a344109"}>
+                                <a href={"https://www.linkedin.com/in/dilanka-wijesekara-a0a344109"} target="_blank" 
+              rel="noopener noreferrer">
 
                                          <span className="bannerIcon">
                                                 <FaLinkedinIn />
                                         </span>
                                 </a>
-                                <a>
+                                <a href='https://www.facebook.com/dilanka.sandeepa/' target="_blank" 
+              rel="noopener noreferrer">
                                        <span className="bannerIcon">
                                              <FaFacebookF />
                                        </span>
                                 </a>
-                                <a href="https://github.com/DilankaSandeep">
+                                <a href="https://github.com/DilankaSandeep" target="_blank" 
+              rel="noopener noreferrer">
                                     <span className="bannerIcon  hover:text-gray-500" title={"GitHub"}>
                                               <Github />
                                     </span>
                                 </a>
-                                <a href={"https://twitter.com/dilankaeg"}>
+                                <a href={"https://twitter.com/dilankaeg"} target="_blank" 
+              rel="noopener noreferrer">
                                     <span className="bannerIcon  hover:text-black" title={"Twitter/X"}>
                                         <FaX />
                                     </span>

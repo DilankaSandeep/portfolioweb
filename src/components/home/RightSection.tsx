@@ -1,7 +1,7 @@
 import image from "../../assets/bannerImage/8e88140406559f1198926991a8faec41(1).png";
 export const RightSection = () => {
     return (
-        <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
+        <div className="w-full lgl:w-1/2 flex justify-center items-center relative animate__animated animate__fadeIn  ">
             <img
                 className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
                 src={image}

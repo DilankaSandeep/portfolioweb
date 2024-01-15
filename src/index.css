@@ -27,3 +27,13 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+:root {
+    --animate-duration: 2000ms;
+    --animate-delay: 0.9s;
+}
+
+#test{
+    position: sticky;
+    top: 90%;
+    left: 95%;
+}

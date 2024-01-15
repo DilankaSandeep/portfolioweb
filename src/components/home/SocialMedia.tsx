@@ -15,14 +15,20 @@ export const SocialMedia = () => {
                 </h2>
                 <div className="flex gap-4">
             <span className="bannerIcon" title="LinkedIn Link" >
-                <a href="https://www.linkedin.com/in/dilanka-wijesekara-a0a344109">
+                <a href="https://www.linkedin.com/in/dilanka-wijesekara-a0a344109"  target="_blank"  
+              rel="noopener noreferrer" >
               <Linkedin  />
                     </a>
             </span>
                     <span className="bannerIcon" title="FaceBook Link">
-              <Facebook />
+                      <a href="https://www.facebook.com/dilanka.sandeepa/"  target="_blank" 
+              rel="noopener noreferrer" >
+                      <Facebook />
+                      </a>
+   
             </span>
-                    <a href="https://github.com/DilankaSandeep">
+                    <a href="https://github.com/DilankaSandeep" target="_blank" 
+              rel="noopener noreferrer">
                     <span className="bannerIcon hover:text-gray-700" title="GitHub Link">
               <Github />
             </span>
